@@ -5,8 +5,9 @@ body {
     margin: 0%;
 }
 
-h1{
-    text-align: center;
+a.title {
+    justify-content: center;
+    color: ;
     font-size: xxx-large;
     font-family: Copperplate, Papyrus, fantasy;
     margin-bottom: 20px;
