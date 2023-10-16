@@ -9,6 +9,7 @@ h1{
     text-align: center;
     font-size: xxx-large;
     font-family: Copperplate, Papyrus, fantasy;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -18,14 +19,16 @@ nav a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
     margin:  none;
     padding: 2%;
+    padding-left: absolute;
+    padding-right: absolute;
 }
 
 nav {background-color: #FF5551;
-    padding: 40px;
+    padding: 50px;
 }
 
 nav :hover { background: #FCFBF4;
-    padding: 40px;
+    padding: 50px;
 }
 
 #header{
@@ -33,11 +36,10 @@ nav :hover { background: #FCFBF4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     text-align: center;
-    margin-bottom: none;
+    margin-bottom: 25px;
 }
 
 #imgone {
-    background-image: ;
     max-width: 100%;
     overflow-y: scroll;
     margin-top: 20px;
@@ -53,8 +55,8 @@ nav :hover { background: #FCFBF4;
 .header1 {
     margin: 2%;
     margin-top:8%;
-    font-size: x-large;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -67,7 +69,11 @@ p {
 }
 
 .imgtwo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+
 }
 
 #cap-one {
