@@ -24,11 +24,11 @@ nav a {
 }
 
 nav {background-color: #FF5551;
-    padding: 50px;
+    padding: 40px;
 }
 
 nav :hover { background: #FCFBF4;
-    padding: 50px;
+    padding: 40px;
 }
 
 #header{
