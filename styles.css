@@ -110,6 +110,12 @@ img.imgtwo {
     color:black;
 }
 
+#p2{
+    margin: 5%;
+    font-family: Rockwell;
+    font-size: large;
+}
+
 footer {
     background-color: #FF5551;
     font-family: Rockwell;
