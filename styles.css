@@ -22,7 +22,7 @@ nav a {
     color: black;
     text-decoration: none;
     font-size: 20px;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Rockwell;
     margin: none;
     padding: 2%;
 }
@@ -55,14 +55,14 @@ nav :hover { background: #FCFBF4;
 }
 
 #header{
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Rockwell;
     font-size: 15px;
     text-align: center;
     margin-bottom: 0px;
 }
 
-#header, p{
+#header {
+    text-align: center;
     margin-bottom:20px;
 }
 #imgone {
@@ -71,24 +71,27 @@ nav :hover { background: #FCFBF4;
     margin-top: 20px;
 }
 
-.rectangle {
-    width: 100%;
-    height: 40px;
-    background-color: cornflowerblue; 
-    
-  }
     
 h3.header1 {
     margin: 2%;
     margin-top:5%;
     font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-family: Rockwell;
 }
 
-p {
-    margin-left: 18%;
-    margin-right: 3%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#header1 {
+    font-size: xxx-large;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+p.text1{
+    
+    margin: 5%;
+    font-family: Rockwell;
     font-size: medium;
 }
 
@@ -98,7 +101,7 @@ img.imgtwo {
 
 #cap-one {
     font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Rockwell;
     font-size: small;
     display:inline-block;
     text-decoration:none;
@@ -107,6 +110,6 @@ img.imgtwo {
 
 footer {
     background-color: #FF5551;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Rockwell;
     height: 30px;
 }
