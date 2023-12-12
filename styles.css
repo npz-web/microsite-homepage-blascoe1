@@ -122,3 +122,23 @@ footer {
     font-family: Rockwell;
     height: 30px;
 }
+
+#MLteams {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    text-align: center;
+    font-family: Rockwell;
+
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+p {
+    font-family: Rockwell;
+}
+
+.pteams {
+    padding-left: 5%;
+    padding-right: 5%;
+}
