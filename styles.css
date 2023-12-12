@@ -68,7 +68,7 @@ nav :hover { background: #FCFBF4;
     margin-bottom:20px;
 }
 #imgone {
-    min-width: 100%;
+    max-width: 100%;
     max-height: 800px;
     overflow-y: scroll;
     margin-top: 20px;
@@ -134,6 +134,17 @@ footer {
     align-items: center; /* Vertically center the content */
 }
 
+.hteams{
+    font-family: Rockwell;
+    padding-left: 5%; 
+
+}
+
+#imgoneteams {
+    max-width: 100%;
+    
+}
+
 p {
     font-family: Rockwell;
 }
@@ -142,4 +153,14 @@ p {
     padding-left: 5%;
     padding-right: 5%;
     font-size: medium;
+}
+
+ul {
+    list-style: none;
+    font-family: Rockwell;
+}
+
+li {
+    padding-top: 1%;
+    padding-bottom: 1%
 }
