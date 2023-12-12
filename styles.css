@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+p {
+    font-family: Rockwell;
+}
+
 a.title {
     position: relative;
     display: flex;
@@ -123,6 +127,7 @@ footer {
     height: 30px;
 }
 
+
 #MLteams {
     padding-top: 3%;
     padding-bottom: 1%;
@@ -137,16 +142,13 @@ footer {
 .hteams{
     font-family: Rockwell;
     padding-left: 5%; 
+    font-size: medium;
 
 }
 
 #imgoneteams {
-    max-width: 100%;
+    max-width: 50%;
     
-}
-
-p {
-    font-family: Rockwell;
 }
 
 .pteams {
