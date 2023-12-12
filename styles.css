@@ -127,28 +127,54 @@ footer {
     height: 30px;
 }
 
+.teamsheader {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.teamsheader h1 {
+    flex: 1;
+    margin: 0;
+}
+
+.teamsheader p {
+    flex: 2;
+    margin: 0;
+}
 
 #MLteams {
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 1%;
-    padding-left: 5%;
+    padding-left: 8%;
+    padding-right: 8%%;
     text-align: center;
     font-family: Rockwell;
 
-    display: flex;
-    align-items: center; /* Vertically center the content */
 }
 
 .hteams{
     font-family: Rockwell;
     padding-left: 5%; 
-    font-size: medium;
+}
 
+#teamsopener {
+    margin-right: 5%;
+    padding-top: 5%;
+}
+
+.teamsfigone {
+    display: flex;
+    align-items: flex-start;
+}
+
+.teamsfigone img {
+    flex: 1;
+    margin: 0;
 }
 
 #imgoneteams {
-    max-width: 50%;
-    
+    max-width: 37%; 
+    margin-top: 3%;
 }
 
 .pteams {
@@ -160,6 +186,7 @@ footer {
 ul {
     list-style: none;
     font-family: Rockwell;
+    font-weight: bold;
 }
 
 li {
