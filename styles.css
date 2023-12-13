@@ -125,13 +125,15 @@ footer {
     background-color: #FF5551;
     font-family: Rockwell;
     height: 30px;
+    position: relative;
 }
 
-#MLteams {
+<!--TEAMS-->
+
+h1,#MLteams {
     padding-bottom: 1%;
     text-align: center;
     font-family: Rockwell;
-
 }
 
 #teamsopener {
@@ -152,16 +154,17 @@ footer {
 #imgoneteams {
     float: left;
     max-width: 40%; 
-    margin-top: 5%;
+    margin-top: 2%;
     padding-right: 2%;
+    height: 475px;
+    width: relative;
 }
 
 .alteams {
    display: block;
+   position: relative;
    margin: auto;
    flex-wrap: nowrap;
-   padding-top: 5%;
-
 }
 
 .pteams {
@@ -189,6 +192,7 @@ li {
     align-items: center; /* Vertically centers content */
     height: 200px; /* Optional: Set a height for the container */
     padding-top: auto;
+    padding-right: 5%;
   
 }
 
@@ -205,10 +209,19 @@ li {
 }
 
 #imgtwoteams {
-    float: left;
-    max-width: 40%; 
+    float: right; 
     margin-top: 5%;
     padding-right: 2%;
+    height: 475px;
+    width: relative;
+
+}
+
+.nlteams {
+    display: block;
+    margin: auto;
+    flex-wrap: nowrap;
+    padding-top: 5%;
 }
 
 .allnl {
@@ -216,8 +229,9 @@ li {
     justify-content: space-around;
     align-items: center; /* Vertically centers content */
     height: 200px; /* Optional: Set a height for the container */
+    width: 700px;
     padding-top: auto;
-  
+    padding-left: 5%;
 }
 
 #west2 {
@@ -231,3 +245,6 @@ li {
 #east2 {
     flex: 1; /* Allow the heading to grow and take available space */
 }
+
+<!--PLAYING THE GAME-->
+
