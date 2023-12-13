@@ -128,7 +128,13 @@ footer {
     position: relative;
 }
 
+
+
+
 <!--TEAMS-->
+
+
+
 
 h1,#MLteams {
     padding-bottom: 1%;
@@ -246,11 +252,22 @@ li {
     flex: 1; /* Allow the heading to grow and take available space */
 }
 
+
+
+
 <!--PLAYING-->
 
-#rules {
+
+
+
+.hplay {
+    font-family: Rockwell;
+    padding-left: 5%; 
+
+}
+
+h1, #rules {
     padding-bottom: 1%;
     text-align: center;
     font-family: Rockwell;
-
 }
