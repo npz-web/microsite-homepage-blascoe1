@@ -129,8 +129,6 @@ footer {
 
 #MLteams {
     padding-bottom: 1%;
-    padding-left: 8%;
-    padding-right: 8%%;
     text-align: center;
     font-family: Rockwell;
 
@@ -142,6 +140,8 @@ footer {
 
 #allteams {
     text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .hteams{
@@ -149,17 +149,19 @@ footer {
     padding-left: 5%; 
 }
 
-
 #imgoneteams {
     float: left;
-    max-width: 50%; 
-    margin-top: 3%;
+    max-width: 40%; 
+    margin-top: 5%;
     padding-right: 2%;
 }
 
 .alteams {
    display: block;
-   padding-left: 1%;
+   margin: auto;
+   flex-wrap: nowrap;
+   padding-top: 5%;
+
 }
 
 .pteams {
@@ -181,13 +183,51 @@ li {
     padding-bottom: 1%
 }
 
-.alwest {
+.allal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Vertically centers content */
+    height: 200px; /* Optional: Set a height for the container */
+    padding-top: auto;
+  
+}
+
+#west1 {
+    flex: 1; /* Allow the heading to grow and take available space */
+}
+
+#central1 {
+    flex: 1; /* Allow the heading to grow and take available space */
+}
+
+#east1 {
+    flex: 1; /* Allow the heading to grow and take available space */
+}
+
+#imgtwoteams {
     float: left;
-    padding: 5%;
+    max-width: 40%; 
+    margin-top: 5%;
+    padding-right: 2%;
 }
 
-.aleast {
-    float: right;
-    padding: 5%;
+.allnl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Vertically centers content */
+    height: 200px; /* Optional: Set a height for the container */
+    padding-top: auto;
+  
 }
 
+#west2 {
+    flex: 1; /* Allow the heading to grow and take available space */
+}
+
+#central2 {
+    flex: 1; /* Allow the heading to grow and take available space */
+}
+
+#east2 {
+    flex: 1; /* Allow the heading to grow and take available space */
+}
