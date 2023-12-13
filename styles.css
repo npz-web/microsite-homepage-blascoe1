@@ -127,21 +127,6 @@ footer {
     height: 30px;
 }
 
-.infoimg {
-    display: flex;
-    align-items: center; /* Vertically center the content */
-}
-
-.infoimg img {
-    flex: 2;
-    margin: 0;
-}
-
-.infoimg {
-    flex: 2;
-    margin: 0;
-}
-
 #MLteams {
     padding-top: 5%;
     padding-bottom: 1%;
@@ -152,46 +137,33 @@ footer {
 
 }
 
+#teamsopener {
+    text-align: center;
+
+}
+
 .hteams{
     font-family: Rockwell;
-    padding-left: auto; 
+    padding-left: 5%; 
 }
 
-.teamsfigone {
-    display: flex;
-    align-items: center;
-}
-
-.teamsfigone img {
-    flex: 2;
-    margin: 0;
-}
 
 #imgoneteams {
     max-width: 50%; 
     margin-top: 3%;
-    margin-right: auto;
+    margin-right:;
 }
 
 .alteams {
-    display: flex;
-    align-items: space-around;
-}
-
-.alteams h3 {
-    flex: 2;
-    margin: 0;
-}
-
-.alteams p {
-    flex: 2;
-    margin: 0;
+   display: block;
 }
 
 .pteams {
     padding-left: 5%;
     padding-right: 5%;
     font-size: medium;
+    text-align: left;
+    display: block;
 }
 
 ul {
