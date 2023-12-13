@@ -7,9 +7,10 @@ body {
 
 a{
     text-decoration: none;
+
 }
 
-p {
+* {
     font-family: Rockwell;
 }
 
@@ -77,7 +78,6 @@ nav :hover { background: #FCFBF4;
     overflow-y: scroll;
     margin-top: 20px;
 }
-
     
 h3.header1 {
     margin: 2%;
@@ -246,5 +246,11 @@ li {
     flex: 1; /* Allow the heading to grow and take available space */
 }
 
-<!--PLAYING THE GAME-->
+<!--PLAYING-->
 
+#rules {
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: Rockwell;
+
+}
