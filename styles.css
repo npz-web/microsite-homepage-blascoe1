@@ -127,17 +127,17 @@ footer {
     height: 30px;
 }
 
-.teamsheader {
+.infoimg {
     display: flex;
     align-items: center; /* Vertically center the content */
 }
 
-.teamsheader h1 {
-    flex: 1;
+.infoimg img {
+    flex: 2;
     margin: 0;
 }
 
-.teamsheader p {
+.infoimg {
     flex: 2;
     margin: 0;
 }
@@ -154,27 +154,38 @@ footer {
 
 .hteams{
     font-family: Rockwell;
-    padding-left: 5%; 
-}
-
-#teamsopener {
-    margin-right: 5%;
-    padding-top: 5%;
+    padding-left: auto; 
 }
 
 .teamsfigone {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .teamsfigone img {
-    flex: 1;
+    flex: 2;
     margin: 0;
 }
 
 #imgoneteams {
-    max-width: 37%; 
+    max-width: 50%; 
     margin-top: 3%;
+    margin-right: auto;
+}
+
+.alteams {
+    display: flex;
+    align-items: space-around;
+}
+
+.alteams h3 {
+    flex: 2;
+    margin: 0;
+}
+
+.alteams p {
+    flex: 2;
+    margin: 0;
 }
 
 .pteams {
