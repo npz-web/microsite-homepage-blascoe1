@@ -128,7 +128,6 @@ footer {
 }
 
 #MLteams {
-    padding-top: 5%;
     padding-bottom: 1%;
     padding-left: 8%;
     padding-right: 8%%;
@@ -139,7 +138,10 @@ footer {
 
 #teamsopener {
     text-align: center;
+}
 
+#allteams {
+    text-align: center;
 }
 
 .hteams{
@@ -149,13 +151,15 @@ footer {
 
 
 #imgoneteams {
+    float: left;
     max-width: 50%; 
     margin-top: 3%;
-    margin-right:;
+    padding-right: 2%;
 }
 
 .alteams {
    display: block;
+   padding-left: 1%;
 }
 
 .pteams {
@@ -176,3 +180,14 @@ li {
     padding-top: 1%;
     padding-bottom: 1%
 }
+
+.alwest {
+    float: left;
+    padding: 5%;
+}
+
+.aleast {
+    float: right;
+    padding: 5%;
+}
+
