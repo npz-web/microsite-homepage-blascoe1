@@ -259,7 +259,6 @@ h1, #rules {
     margin-top: 3%;
     text-align: center;
     font-family: Rockwell;
-    margin-bottom: 2%;
 }
 
 .play1 {
@@ -278,8 +277,46 @@ h1, #rules {
 }
 
 .play2 {
-    float: right;
     margin: 5%;
-    text:center;
+    text-align:center;
 }
 
+.play3 {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:center;
+}
+
+.play4 {
+    float: left;
+    margin: 5%;
+    text-align:center;
+}
+
+.imggraphic {
+    float: right;
+    max-width: 40%;
+    margin-left: 5%;
+}
+
+
+<!--HISTORY-->
+
+
+.hhistory {
+    font-family: Rockwell;
+    padding-left: 5%; 
+}
+
+#hob {
+    margin-top: 3%;
+    text-align: center;
+    font-family: Rockwell;
+}
+
+#hopener {
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
