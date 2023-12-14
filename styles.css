@@ -271,6 +271,7 @@ h1, #rules {
 .play1 {
     margin-left: 5%;
     margin-right: 5%;
+    text-align: justify;
 }
 
 .playhead {
@@ -284,6 +285,7 @@ h1, #rules {
 
 .play2 {
     margin-left: 5%;
+    text-align: justify;
 }
 
 .container1 {
@@ -316,8 +318,13 @@ h1, #rules {
 .play5 {
     margin-left: 5%;
     margin-right: 5%;
+    text-align: justify;
 }
-
+.play6 {
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: justify;
+}
 
 <!--HISTORY-->
 
@@ -362,6 +369,7 @@ h1, #rules {
     content: '';
     position: absolute;
     width: 6px;
+    height: 100%;
     background-color: #FF5551;
     top: 0;
     bottom: 0;
@@ -474,3 +482,4 @@ h1, #rules {
       left: 0%;
     }
   }
+
