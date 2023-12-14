@@ -262,9 +262,10 @@ h1, #rules {
 }
 
 .play1 {
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
 
 .playhead {
@@ -278,27 +279,35 @@ h1, #rules {
 
 .play2 {
     margin: 5%;
-    text-align:center;
 }
 
 .play3 {
-    float: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align:center;
-}
-
-.play4 {
-    float: left;
-    margin: 5%;
-    text-align:center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: justify
 }
 
 .imggraphic {
     float: right;
     max-width: 40%;
     margin-left: 5%;
+    margin-right: 5%;
 }
+
+.play4 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.play5 {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
 
 
 <!--HISTORY-->
