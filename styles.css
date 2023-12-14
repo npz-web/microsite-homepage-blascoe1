@@ -125,7 +125,6 @@ footer {
     background-color: #FF5551;
     font-family: Rockwell;
     height: 30px;
-    position: relative;
 }
 
 
@@ -136,7 +135,7 @@ footer {
 
 
 
-h1,#MLteams {
+h1, #MLteams {
     text-align: center;
     font-family: Rockwell;
 }
@@ -218,7 +217,6 @@ li {
     margin-top: 5%;
     padding-right: 2%;
     height: 475px;
-    width: relative;
 
 }
 
@@ -257,14 +255,31 @@ li {
 <!--PLAYING-->
 
 
-
-.hplay {
-    font-family: Rockwell;
-    padding-left: 5%; 
-}
-
 h1, #rules {
-    padding-bottom: 1%;
+    margin-top: 3%;
     text-align: center;
     font-family: Rockwell;
+    margin-bottom: 2%;
 }
+
+.play1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.playhead {
+    text-align: center;
+}
+
+.imgfield {
+    max-width: 40%;
+    margin-left: 5%;
+}
+
+.play2 {
+    float: right;
+    margin: 5%;
+    text:center;
+}
+
