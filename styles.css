@@ -274,6 +274,10 @@ h1, #rules {
     text-align: justify;
 }
 
+.hplay {
+    text-align: center;
+}
+
 .playhead {
     margin-left: 5%;
 
@@ -320,11 +324,32 @@ h1, #rules {
     margin-right: 5%;
     text-align: justify;
 }
+
+.position {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.position h1 {
+    flex: 1; /* Allow the heading to grow and take available space */
+   margin-left: 6%;
+    text-align: center;
+}
+
+.position p {
+    flex: 4; /* Allow the paragraph to grow and take more space */
+    margin-right: 5%; 
+}
+
 .play6 {
     margin-left: 6%;
     margin-right: 6%;
     text-align: justify;
 }
+
+
+
+
 
 <!--HISTORY-->
 
