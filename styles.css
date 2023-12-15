@@ -348,9 +348,6 @@ h1, #rules {
 }
 
 
-
-
-
 <!--HISTORY-->
 
 
@@ -368,7 +365,14 @@ h1, #rules {
 #hopener {
     margin-left: 8%;
     margin-right: 8%;
+    text-align: center;
 
+}
+
+
+.impfig {
+    flex: 1; /* Allow the heading to grow and take available space */
+   margin-left: 4%;
 }
 
 
