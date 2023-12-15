@@ -512,3 +512,29 @@ h1, #rules {
     }
   }
 
+.great {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Vertically center the content */
+}
+
+.greath {
+    flex: 1; /* Allow the heading to grow and take available space */
+    margin-left: 6%;
+    text-align: center;
+}
+
+.greatp {
+    flex: 4; /* Allow the paragraph to grow and take more space */
+    margin-right: 5%; 
+}
+
+.greatp {
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: justify;
+}
+
+.bold{
+    font-weight:bold;
+}
