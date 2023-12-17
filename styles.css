@@ -124,10 +124,11 @@ img.imgtwo {
 footer {
     background-color: #FF5551;
     font-family: Rockwell;
-    height: 30px;
     width: 100%;
     position: relative;
-   bottom: 0;
+    bottom: 0;
+    padding-top:1px;
+    padding-bottom:1px;
 }
 
 
@@ -160,11 +161,9 @@ h1, #MLteams {
 
 #imgoneteams {
     float: left;
-    max-width: 40%; 
     margin-top: 2%;
     padding-right: 2%;
     height: 475px;
-    width: relative;
 }
 
 .alteams {
@@ -200,20 +199,32 @@ li {
     height: 200px; /* Optional: Set a height for the container */
     padding-top: auto;
     padding-right: 5%;
-  
+    white-space: nowrap;
+    
+}
+.alwlist, .alclist, .alelist, .nlwlist, .nlclist, .nlelist {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center; /* Center items horizontally */
 }
 
-#west1 {
-    flex: 1; /* Allow the heading to grow and take available space */
+.alwlist li, .alclist li, .alelist li  .nlwlist li, .nlclist li, .nlelist li {
+    display: block; /* Display list items as blocks */
 }
 
-#central1 {
-    flex: 1; /* Allow the heading to grow and take available space */
-}
+table {
+    border-collapse: collapse;
+    margin:5%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
 
-#east1 {
-    flex: 1; /* Allow the heading to grow and take available space */
-}
 
 #imgtwoteams {
     float: right; 
@@ -235,21 +246,8 @@ li {
     justify-content: space-around;
     align-items: center; /* Vertically centers content */
     height: 200px; /* Optional: Set a height for the container */
-    width: 700px;
     padding-top: auto;
-    padding-left: 5%;
-}
-
-#west2 {
-    flex: 1; /* Allow the heading to grow and take available space */
-}
-
-#central2 {
-    flex: 1; /* Allow the heading to grow and take available space */
-}
-
-#east2 {
-    flex: 1; /* Allow the heading to grow and take available space */
+    white-space: nowrap;
 }
 
 #imgthreeteams {
@@ -263,6 +261,10 @@ li {
 .miteams {
     margin-top: 3%;
     margin-right: 5%;
+}
+
+.wikitable {
+
 }
 
 
@@ -536,8 +538,8 @@ h1, #rules {
 
 .greath {
     flex: 1; /* Allow the heading to grow and take available space */
-    margin-left: 6%;
     text-align: center;
+    margin-right:5%;
 }
 
 .greatp {
@@ -554,3 +556,4 @@ h1, #rules {
 .bold{
     font-weight:bold;
 }
+
