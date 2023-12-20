@@ -73,7 +73,7 @@ nav :hover { background: #FCFBF4;
     margin-bottom:20px;
 }
 #imgone {
-    max-width: 100%;
+    max-width: 100%%;
     max-height: 800px;
     overflow-y: scroll;
     margin-top: 20px;
@@ -529,8 +529,8 @@ h1, #rules {
       left: 0%;
     }
   }
-
-.great {
+  
+  .great {
     display: flex;
     justify-content: flex-end;
     align-items: center; /* Vertically center the content */
